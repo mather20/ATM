@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stalesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script src="./assets/js/index.js"></script>
+
+        <title>ATM Machine</title>
+        <style>
+            /* بعض التنسيقات البسيطة */
+            body { font-family: Arial, sans-serif; }
+            .atm { max-width: 300px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
+            input, button { width: 100%; padding: 10px; margin: 5px 0; }
+        </style>
+    </head>
+    <body>
+        <div class="atm">
+            <h2>ATM Machine</h2>
+            <input type="text" id="accountNumber" placeholder="Account Number" />
+            <input type="password" id="pin" placeholder="PIN" />
+            <input type="number" id="amount" placeholder="Amount" />
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="checkBalance()">Check Balance</button>
+            <p id="message"></p>
+        </div>
+        <script src="atm.js"></script>
+    </body>
+    </html
+    
